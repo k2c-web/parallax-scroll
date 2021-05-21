@@ -11,7 +11,7 @@ export const ParallaxContent = styled.div`
   padding: 0;
   width: 100%;
   font-size: 50px;
-  color: black;
+  color: #b84518;
   margin-top: -100vh;
 `
 
