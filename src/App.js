@@ -8,7 +8,6 @@ function App() {
     <>
       <Header />
       <ParallaxScroll />
-      <Banner />
       <Footer />
     </>
   )

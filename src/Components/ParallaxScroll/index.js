@@ -1,6 +1,7 @@
-import React, { useEffect, useRef } from 'react'
-import { Root, ParallaxContent, Slide } from './styles'
+import React from 'react'
 import BackgroundText from '../BackgroundText'
+import coverSrc from './../../Assets/cover.jpeg'
+import { Root, ParallaxContent, Slide } from './styles'
 
 const vw = Math.max(
   document.documentElement.clientWidth || 0,
@@ -22,7 +23,7 @@ const vh = Math.max(
 const ParallaxScroll = () => {
   return (
     <Root>
-      <BackgroundText parallax src="https://picsum.photos/1680/1050" />
+      <BackgroundText parallax src={coverSrc} />
       <ParallaxContent>
         <Slide>
           <h1>Parallax Scroll</h1>
